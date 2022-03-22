@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{0955F249-90CB-45BA-91FE-45984C3C15AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{3C519D51-818E-4A0C-9436-27E325D6BD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78916164-17B4-4840-AFB0-585D0357ED09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CanviaService", "CanviaService", "{20740D93-98A2-4144-B706-B60695B89DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.API", "Canvia.API\Canvia.API.csproj", "{DBA5FA0C-5697-4AB8-BAD5-40B3D80B866F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Core", "Canvia.Core\Canvia.Core.csproj", "{273EFD29-112F-444E-AEB3-8C2FEE379F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Infrastructure", "Canvia.Infrastructure\Canvia.Infrastructure.csproj", "{25A602E0-7BC5-497C-A8D0-CF153349694F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{4E424610-A8F5-48C7-A784-994E3022C6D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C519D51-818E-4A0C-9436-27E325D6BD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C519D51-818E-4A0C-9436-27E325D6BD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C519D51-818E-4A0C-9436-27E325D6BD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C519D51-818E-4A0C-9436-27E325D6BD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA5FA0C-5697-4AB8-BAD5-40B3D80B866F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA5FA0C-5697-4AB8-BAD5-40B3D80B866F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA5FA0C-5697-4AB8-BAD5-40B3D80B866F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA5FA0C-5697-4AB8-BAD5-40B3D80B866F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273EFD29-112F-444E-AEB3-8C2FEE379F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273EFD29-112F-444E-AEB3-8C2FEE379F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273EFD29-112F-444E-AEB3-8C2FEE379F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273EFD29-112F-444E-AEB3-8C2FEE379F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A602E0-7BC5-497C-A8D0-CF153349694F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A602E0-7BC5-497C-A8D0-CF153349694F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A602E0-7BC5-497C-A8D0-CF153349694F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A602E0-7BC5-497C-A8D0-CF153349694F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E424610-A8F5-48C7-A784-994E3022C6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E424610-A8F5-48C7-A784-994E3022C6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E424610-A8F5-48C7-A784-994E3022C6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E424610-A8F5-48C7-A784-994E3022C6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C519D51-818E-4A0C-9436-27E325D6BD47} = {0955F249-90CB-45BA-91FE-45984C3C15AD}
+		{20740D93-98A2-4144-B706-B60695B89DAE} = {78916164-17B4-4840-AFB0-585D0357ED09}
+		{DBA5FA0C-5697-4AB8-BAD5-40B3D80B866F} = {20740D93-98A2-4144-B706-B60695B89DAE}
+		{273EFD29-112F-444E-AEB3-8C2FEE379F6B} = {20740D93-98A2-4144-B706-B60695B89DAE}
+		{25A602E0-7BC5-497C-A8D0-CF153349694F} = {20740D93-98A2-4144-B706-B60695B89DAE}
+		{4E424610-A8F5-48C7-A784-994E3022C6D4} = {0955F249-90CB-45BA-91FE-45984C3C15AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8341C7C-6A99-4F9E-836F-94D08F4F6740}
+	EndGlobalSection
+EndGlobal
